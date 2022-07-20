@@ -1,4 +1,4 @@
 I made this datpack that allows you to change gamemode with no op permissions.
 I also implemented that you can't change gamemode if there is a mob nearby.
-But this works only in singleplayer because the score is added to @a to work. Can someone know how to fix this?
+But this works only in singleplayer because the score is added to @a to work. Does someone know how to fix this?
 Thanks.
