@@ -1,0 +1,9 @@
+{
+  "type": "smelting",
+  "ingredient": {
+    "tag": "nisos:iron_armors_and_weapons"
+  },
+  "result": "minecraft:iron_ingot",
+  "experience": 1,
+  "cookingtime": 250 
+}
