@@ -1,7 +1,7 @@
 scoreboard players enable @a spectator
 
-execute at @a run execute if entity @e[type=#nisos:hostile_mobs, distance=..5] run scoreboard players set @a mobsnear 1
-execute at @a run execute unless entity @e[type=#nisos:hostile_mobs, distance=..5] run scoreboard players set @a mobsnear 0
+scoreboard players set @a mobsnear 0
+execute as @a at @s run execute if entity @e[type=#nisos:hostile_mobs, distance=..5] run scoreboard players set @s mobsnear 1
 
 execute as @a run execute if score @s mobsnear matches 1 run execute if score @s spectator matches 1 run tag @s add cant
 
